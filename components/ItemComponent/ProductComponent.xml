@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProductComponent" extends="BaseItemComponent"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+	<script type="text/brightscript"
+		uri="pkg:/components/ItemComponent/ProductComponent.brs" />
+	
+	<children>
+		<Group>
+			<Poster id="productImage" />
+			<Rectangle id="productTitleBG" color="#000000" opacity="0.5" >
+				<Label id="productTitle" />
+			</Rectangle>
+		</Group>
+	</children>
+</component>

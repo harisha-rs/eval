@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ReviewComponent" extends="BaseItemComponent"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+	<script type="text/brightscript"
+		uri="pkg:/components/ItemComponent/ReviewComponent.brs" />
+
+	<children>
+		<LayoutGroup layoutDirection="vert">
+			<Label id="title" width="300" height="100" translation="[0,20]" />
+		</LayoutGroup>
+	</children>
+
+</component>

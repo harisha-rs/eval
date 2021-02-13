@@ -1,0 +1,8 @@
+title=EVProj
+major_version=1
+minor_version=0
+build_version=256
+mm_icon_focus_hd=pkg:/images/icon_focus_hd.png
+mm_icon_focus_sd=pkg:/images/icon_focus_sd.png
+mm_icon_focus_fhd=pkg:/images/icon_focus_hd.png
+splash_rsg_optimization=1

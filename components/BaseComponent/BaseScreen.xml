@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="BaseScreen" extends="Group" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+	<script type="text/brightscript" uri="pkg:/components/BaseComponent/BaseScreen.brs" />
+	<script type="text/brightscript" uri="pkg:/components/Utils/CompUtils.brs" />
+	<script type="text/brightscript" uri="pkg:/components/Utils/Utils.brs" />
+</component>

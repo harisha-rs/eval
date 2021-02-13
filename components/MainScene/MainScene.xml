@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MainScene" extends="Scene"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+	<script type="text/brightscript"
+		uri="pkg:/components/MainScene/MainScene.brs" />
+	<children>
+		<RowList id="mainMenu" translation="[0,20]" />
+		<Group id="screens" translation = "[20,100]" >
+		</Group>
+	</children>
+
+</component>

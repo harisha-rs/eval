@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProductInfo" extends="Group"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+	<script type="text/brightscript"
+		uri="pkg:/components/screens/ProductInfo.brs" />
+	<script type="text/brightscript"
+		uri="pkg:/components/Utils/Utils.brs" />
+
+	<interface>
+		<field id="title" alias="prdTitle.text" type="string"
+			alwaysNotify="true" />
+		<field id="desc" alias="desc.text" type="string"
+			alwaysNotify="true" />
+		<field id="code" alias="code.text" type="string"
+			alwaysNotify="true" />
+		<field id="compTitle" alias="compTitle.text" type="string"
+			alwaysNotify="true" />
+		<field id="rating" alias="rating.text" type="float"
+			alwaysNotify="true" />
+		<field id="price" alias="price.text" type="float"
+			alwaysNotify="true" />
+		<field id="image" alias="productImage.uri" type="float"
+			alwaysNotify="true" />
+		<field id="reviews" type="roArray" onChange="setReviews"
+			alwaysNotify="true" />
+	</interface>
+
+	<children>
+		<Group id="productInfo">
+			<Label id="compTitle" translation="[10,-50]" />
+			<Poster id="productImage" width="500" height="250" />
+			<LayoutGroup layoutDirection="vert"
+				translation="[550,0]" itemSpacings="[10]">
+				<Label id="prdTitle">
+					<Font uri="pkg://fonts/times-new-roman.ttf" size = "20" />
+				</Label>
+				<Label id="desc">
+					<Font uri="pkg://fonts/times-new-roman.ttf" size = "20" />
+				</Label>
+				<Label id="price" >
+					<Font uri="pkg://fonts/times-new-roman.ttf" size = "20" />
+				</Label>
+				<Label id="rating">
+					<Font uri="pkg://fonts/times-new-roman.ttf" size = "20" />
+				</Label>
+				<label id="code">
+					<Font uri="pkg://fonts/times-new-roman.ttf" size = "20" />
+				</label>
+				<Button id="purchase" width="50" height="50" text="Purchase"
+					showFocusFootprint="false" />
+			</LayoutGroup>
+			<Label id="reviewheader" text="Reviews" translation="[850,10]" >
+				<Font uri="pkg://fonts/times-new-roman.ttf" size = "20" />
+			</Label>
+			<RowList id="reviewList" translation="[850,60]" />
+
+		</Group>
+	</children>
+
+</component>

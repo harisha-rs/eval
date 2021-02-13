@@ -1,0 +1,47 @@
+{
+    "mainMenu": [
+        {
+            "title": "furniture",
+            "id": 0
+        },
+        {
+            "title": "clothing",
+            "id": 0
+        },
+        {
+            "title": "phone",
+            "id": 0
+        },
+        {
+            "title": "electronics",
+            "id": 0
+        }
+    ],
+    "sections": [
+        {
+            "title": "furniture",
+            "desc": "",
+            "price": 0,
+            "rating": 1,
+            "image": "https://source.unsplash.com/random/200x200?sig=",
+            "reviews": [
+                {
+                    "title": "Good one",
+                    "desc": "Experience is Good, would suggest this."
+                },
+                {
+                    "title": "Good one",
+                    "desc": "Experience is Good, would suggest this."
+                },
+                {
+                    "title": "Good one",
+                    "desc": "Experience is Good, would suggest this."
+                },
+                {
+                    "title": "Good one",
+                    "desc": "Experience is Good, would suggest this."
+                }
+            ]
+        }
+    ]
+}

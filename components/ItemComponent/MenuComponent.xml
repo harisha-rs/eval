@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MenuComponent" extends="BaseItemComponent"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+	<script type="text/brightscript"
+		uri="pkg:/components/ItemComponent/MenuComponent.brs" />
+
+	<interface>
+		<field id="focusPercent" type="float"
+			onChange="onFocusPercentChange" alwaysNotify="true" />
+		<field id="itemHasFocus" type="bool" alwaysNotify="true"
+			onChange="onItemFocusChange" />
+		<field id="rowHasFocus" type="bool"
+			onChange="onRowFocusChange" alwaysNotify="true" />
+	</interface>
+
+	<children>
+		<Rectangle id="menuBGColor" width="250" height="50">
+		</Rectangle>
+		<Label id="title" height="30" width="300" translation="[50,5]" />
+	</children>
+
+</component>
